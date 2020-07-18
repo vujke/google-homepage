@@ -1,0 +1,75 @@
+body {
+  font-size: 13px;
+}
+
+.btn {
+  font-size: 14px
+}
+
+a {
+  color: #000000;
+}
+
+.top-navigation {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.top-navigation a {
+  padding: 10px;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.search {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.search-bar {
+  border-radius: 25px;
+  border: 1px solid #e3e3e3;
+  width: 500px;
+  height: 40px;
+  text-align: center;
+}
+
+.search-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.language {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  bottom: 0;
+  display: block;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+}
+
+#footer a {
+  margin-left: 30px;
+  color: #5f6368;
+}
+
+.footer-left {
+  float: left;
+  display: inline-block;
+
+}
+
+.footer-right {
+  float: right;
+  margin-right: 30px;
+  display: block;
+}
