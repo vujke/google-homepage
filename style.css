@@ -3,7 +3,9 @@ body {
 }
 
 .btn {
-  font-size: 14px
+  font-size: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 a {
@@ -22,7 +24,7 @@ a {
 
 .logo {
   text-align: center;
-  margin-top: 300px;
+  margin-top: 150px;
 }
 
 .search {
@@ -36,6 +38,7 @@ a {
   width: 500px;
   height: 40px;
   text-align: center;
+ background: url(images/loop.png) no-repeat 20px;
 }
 
 .search-button {
@@ -45,7 +48,13 @@ a {
 
 .language {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.loop {
+  position:absolute;
+    width:20px;
+    height:20px;
 }
 
 #footer {
