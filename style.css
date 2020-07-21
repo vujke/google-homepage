@@ -14,7 +14,7 @@ a {
 
 .top-navigation {
   text-align: right;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-right: 30px;
 }
 
@@ -22,23 +22,33 @@ a {
   padding: 10px;
 }
 
+.menu {
+  width: 20px;
+  height: 20px;
+}
+
 .logo {
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 30px;
 }
 
 .search {
+  margin: 0 auto;
+  display: inline;
+}
+
+form {
   text-align: center;
-  margin-top: 40px;
+  width: 0 auto;
 }
 
 .search-bar {
   border-radius: 25px;
   border: 1px solid #e3e3e3;
-  width: 500px;
+  width: 550px;
   height: 40px;
   text-align: center;
- background: url(images/loop.png) no-repeat 20px;
 }
 
 .search-button {
@@ -52,9 +62,17 @@ a {
 }
 
 .loop {
-  position:absolute;
-    width:20px;
-    height:20px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline;
+}
+
+.mic {
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline;
 }
 
 #footer {
